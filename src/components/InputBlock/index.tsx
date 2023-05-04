@@ -18,7 +18,7 @@ const InputBlock = (): JSX.Element => {
     const addItem = () => {
         if ((newItem.length >= 25) || (!newItem)) {
             dispatch(setValue(""));
-            return alert("enter a short action from 0 to 25 characters long!");
+            return alert("enter a short product name from 0 to 25 characters long!");
         }
 
         if (newItem) {
